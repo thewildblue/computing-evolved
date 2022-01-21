@@ -15,23 +15,30 @@ Currently proprietary specs are *italicized*. Generally, a spec is proprietary i
 - Scalar data encodings
   - JoyDat: Text scalars optimized for people to read and write (partial spec)
     - EVADat: Text scalars for Voice Attack (Windows) software IO
-      - EVADat-Sys
       - EVADat-User
+      - EVADat-Sys
+    - Fast reversible encodings of binary in natural language
   - LexDat: Scalar encodings with useful lexicographical orders
+    - LexDat-Text / LexText: Text scalars with useful lexicographic orders and other considerations
     - *LexDat-Bin* / *LexBin*: Binary scalars with useful lexicographic orders
-    - LexDat-Text / LexText: Text scalars with useful lexicographic orders and some consideration for human users
   - 🦕 *BrontoCode*
 - Data structure encodings
   - JOML: More obvious, more minimal TOML
   - SepVal: Generalization (and simplification) of comma separated values / IETF RFC 4180
-  - BinDoc: Binary documents
+  - *BinDoc*: Binary documents
+- Data embedding (escape techniques)
+    - Markdown
+      - TickSeq
+      - MDMacro
 - Databases
   - JoyDB: Databases for people
     - JamDB: Structured data in [static sites](https://jamstack.org/)
-      - Hugo JamDB
-        - *Hugo + Bronto JamDB*
-- Compute
-  - Ⓜ️Ⓜ️ *MMOS*
+      - [Hugo](https://gohugo.io/)DB
+  - 🦕 *BrontoDB*
+- Procedure call registration/packaging
+  - *FuncPack*
+- Orchestration
+  - 🪁 *MantaOS*
 - Addendum: Intellectual property
   - Protecting valuable IP: Patents, NDAs, and trademarks
   - Freeing ideas: CC Attribution
