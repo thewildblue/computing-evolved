@@ -8,7 +8,7 @@ In this document:
 
 Copyright 2022 Wild Blue Ventures Inc.  
 Documentation in this repository, which includes source code comments, is licensed under the [Creative Commons Attribution 4.0 International License](LICENSE.txt).  
-Source code in this repository, which includes snippets in documentation, is licensed under the [Apache License 2.0](CODE LICENSE.txt).
+Source code in this repository, which includes snippets in documentation, is licensed under the [Apache License 2.0](CODE%20LICENSE.txt).
 
 ## All specifications
 Currently proprietary specs are *italicized*. Generally, a spec is proprietary if it's inseparable from an implementation with an active or pending patent.
@@ -35,8 +35,8 @@ Currently proprietary specs are *italicized*. Generally, a spec is proprietary i
     - JamDB: Structured data in [static sites](https://jamstack.org/)
       - [Hugo](https://gohugo.io/)DB
   - 🦕 *BrontoDB*
-- Procedure call registration/packaging
-  - *FuncPack*
+- Flexible code re-use
+  - *ProtoLib*
 - Orchestration
   - 🪁 *MantaOS*
 - Addendum: Intellectual property
