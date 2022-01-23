@@ -13,14 +13,13 @@ Source code in this repository, which includes snippets in documentation, is lic
 ## All specifications
 Currently proprietary specs are *italicized*. Generally, a spec is proprietary if it's inseparable from an implementation with an active or pending patent.
 - Scalar data encodings
-  - JoyDat: Text scalars optimized for people to read and write (partial spec)
-    - EVADat: Text scalars for Voice Attack (Windows) software IO
-      - EVADat-User
-      - EVADat-Sys
-    - Fast reversible encodings of binary in natural language
+  - OurDat: Text scalars optimized for people to read and write (partial spec)
+    - BinWords: Fast reversible encodings of binary in natural language
+    - EVADat user dialect
   - LexDat: Scalar encodings with useful lexicographical orders
-    - LexDat-Text / LexText: Text scalars with useful lexicographic orders and other considerations
-    - *LexDat-Bin* / *LexBin*: Binary scalars with useful lexicographic orders
+    - LexText: Text scalars with useful lexicographic orders and other considerations
+    - *LexBin*: Binary scalars with useful lexicographic orders
+  - EVADat: Text scalars for Voice Attack (Windows) software IO
   - 🦕 *BrontoCode*
 - Data structure encodings
   - JOML: More obvious, more minimal TOML
@@ -31,19 +30,20 @@ Currently proprietary specs are *italicized*. Generally, a spec is proprietary i
       - TickSeq
       - MDMacro
 - Databases
-  - JoyDB: Databases for people
+  - OurDB: Databases for people
     - JamDB: Structured data in [static sites](https://jamstack.org/)
       - [Hugo](https://gohugo.io/)DB
   - 🦕 *BrontoDB*
-- Flexible code re-use
+- Omniplatform code reuse
   - *ProtoLib*
 - Orchestration
-  - 🪁 *MantaOS*
+  - 📥 *Inbound*
 - Addendum: Intellectual property
   - Protecting valuable IP: Patents, NDAs, and trademarks
   - Freeing ideas: CC Attribution
   - Freeing code (incompatible with patents/NDAs): Apache
 
 ## Open implementations
+- BinWords
 - JOML
 - SepVal
